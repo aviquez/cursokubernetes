@@ -1,13 +1,13 @@
 # Curso-Kubernetes
 
-Material que se uso en el Curso de Kubernetes impartido por CodeURJ.
+Material que se uso en el Curso de Kubernetes.
 
 ## Ejercicio 1
 
 1. Despliega en Kubernetes una aplicación web “webgatos”
 
 ```
-Imagen:  codeurjc/webgatos:v1
+Imagen:  file/webgatos:v1
 Puerto: 5000
 Código de la aplicación: Apps/web-gatos
 ```
@@ -30,7 +30,7 @@ Despliega una aplicación de web de anuncios con base de datos en Kubernetes
 **Aplicación Web**
 
 ```
-Imagen: codeurjc/java-webapp-bbdd:v2
+Imagen: file/java-webapp-bbdd:v2
 Puerto: 8080
 Variables de entorno: 
 MYSQL_ROOT_PASSWORD = pass
