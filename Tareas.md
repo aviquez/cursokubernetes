@@ -174,7 +174,7 @@ Hay un kubectl cordon $NODE que marca el nodo como en mantenimiento pero no lo e
 
 * Versión microservicios en Kubernetes
 
-* Demo de https://github.com/codeurjc/SquirrelDrey (limitado porque tenemos que saber cómo configurar hazelcast para Kubernetes).
+* Demo de https://github.com/aviquez/squirreldrey (limitado porque tenemos que saber cómo configurar hazelcast para Kubernetes).
 
 - https://github.com/hazelcast/hazelcast-kubernetes
 - https://hub.docker.com/r/hazelcast/hazelcast-kubernetes/
@@ -182,7 +182,7 @@ Hay un kubectl cordon $NODE que marca el nodo como en mantenimiento pero no lo e
 
 He trabajado con la sample app de Pablo para Squirrel Drey y esta documentado aquí:                                 
 
-https://github.com/codeurjc/SquirrelDrey/tree/master/squirrel-drey-kubernetes
+https://github.com/aviquez/squirreldrey/tree/master/squirrel-drey-kubernetes
 
 * FullTeaching
 
