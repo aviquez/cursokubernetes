@@ -7,7 +7,7 @@ Material que se uso en el Curso de Kubernetes.
 1. Despliega en Kubernetes una aplicación web “webgatos”
 
 ```
-Imagen:  file/webgatos:v1
+Imagen:  aviquez/webgatos:v1
 Puerto: 5000
 Código de la aplicación: Apps/web-gatos
 ```
@@ -30,7 +30,7 @@ Despliega una aplicación de web de anuncios con base de datos en Kubernetes
 **Aplicación Web**
 
 ```
-Imagen: file/java-webapp-bbdd:v2
+Imagen: aviquez/java-webapp-bbdd:v2
 Puerto: 8080
 Variables de entorno: 
 MYSQL_ROOT_PASSWORD = pass
