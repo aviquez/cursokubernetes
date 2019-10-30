@@ -1,13 +1,14 @@
 # Curso-Kubernetes
 
-Material que se uso en el Curso de Kubernetes.
+Material Curso de Kubernetes.
 
 ## Ejercicio 1
 
 1. Despliega en Kubernetes una aplicación web “webgatos”
-
+pueden acceder a la imagen en... https://github.com/codeurjc
 ```
-Imagen:  aviquez/webgatos:v1
+
+Imagen:  codeurjc/webgatos:v1
 Puerto: 5000
 Código de la aplicación: Apps/web-gatos
 ```
@@ -28,9 +29,9 @@ Verifica que al acceder a la web cada vez se obtiene una IP diferente porque se 
 Despliega una aplicación de web de anuncios con base de datos en Kubernetes
 
 **Aplicación Web**
-
+pueden acceder a la imagen en... https://github.com/codeurjc
 ```
-Imagen: aviquez/java-webapp-bbdd:v2
+Imagen: codeurjc/java-webapp-bbdd:v2
 Puerto: 8080
 Variables de entorno: 
 MYSQL_ROOT_PASSWORD = pass
